@@ -28,51 +28,52 @@
                 </button>
             </div>
         </div>
-        <a href="" class="mobile-navigation--item">Home</a>
-        <a href="" class="mobile-navigation--item">About</a>
-        <a href="" class="mobile-navigation--item">Services</a>
-        <a href="" class="mobile-navigation--item">Contact</a>
+        <a href="#home" class="mobile-navigation--item">Home</a>
+        <a href="#about" class="mobile-navigation--item">About</a>
+        <a href="#services" class="mobile-navigation--item">Services</a>
+        <a href="#contact" class="mobile-navigation--item">Contact</a>
     </div>
 
 
-    <div id="container">
-        <header>
+
+    <header>
+        
+
+        <nav class="navigation">
             <i class="fa fa-laptop-code"></i>
+            <a href="#home" class="navigation--item">Home</a>
+            <a href="#about" class="navigation--item">About</a>
+            <a href="#services" class="navigation--item">Services</a>
+            <a href="#contact" class="navigation--item">Contact</a>
+        </nav>
+        <div class="menu-button" onclick="toggleMobileNavigation()">
+            <button>
+                <i class="fa-solid fa-bars"></i>
 
-            <nav class="navigation">
+            </button>
+        </div>
+        <a class="download" href="./assets/CV.pdf" download="Cv.pdf"><i class="fa fa-download"></i>Descargar CV</a>
 
-                <a href="" class="navigation--item">Home</a>
-                <a href="" class="navigation--item">About</a>
-                <a href="" class="navigation--item">Services</a>
-                <a href="" class="navigation--item">Contact</a>
-            </nav>
-            <div class="menu-button" onclick="toggleMobileNavigation()">
-                <button>
-                    <i class="fa-solid fa-bars"></i>
+    </header>
 
-                </button>
-            </div>
-            <a class="download" href="./assets/CV.pdf" download="Cv.pdf"><i class="fa fa-download"></i>Descargar CV</a>
+    <section class="main" id="home">
 
-        </header>
+        <div class="main--content">
 
-        <section class="main">
-            <div class="main--content">
+            <h1 class="headline">Diego Borja Padilla </h1>
+            <h2 class="headline2">Desarrollador Full Stack</h2>
 
-                <h1 class="headline">Diego Borja Padilla </h1>
-                <h2 class="headline2">Desarrollador Full Stack</h2>
+        </div>
+        <div class="main--img">
+            <img src="assets/19362653.jpg" alt="">
+        </div>
 
-            </div>
-            <div class="main--img">
-                <img src="assets/19362653.jpg" alt="">
-            </div>
-
-        </section>
+    </section>
 
 
 
-        <section class="about-section">
-
+    <section  id="about">
+        
             <div class="Text-about">
                 <h1 class="skill__title">About me</h1>
                 <p>Soy ingeniero de software con experiencia en desarrollo de sitios web y aplicaciones web. Cuento con
@@ -157,60 +158,62 @@
             </div>
 
 
+       
 
 
 
+    </section>
 
-        </section>
-
-        <section class="services-section">
-
-            <h1 class="skill__title">Servicios</h1>
-            <div class="services">
-                <div class="services__item">
-                    <i class="fa fa-mobile-screen"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
-                        escritorio, tabletas y teléfonos móviles.</p>
-                </div>
-                <div class="services__item">
-                    <i class="fa fa-palette"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Un buen y atractivo diseño web lo ayuda a mantener sus clientes potenciales en su sitio, que es
-                        la cara digital de su negocio.</p>
-                </div>
-                <div class="services__item">
-                    <i class="fa fa-mobile-screen"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
-                        escritorio, tabletas y teléfonos móviles.</p>
-                </div>
-                <div class="services__item">
-                    <i class="fa fa-mobile-screen"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
-                        escritorio, tabletas y teléfonos móviles.</p>
-                </div>
-                <div class="services__item">
-                    <i class="fa fa-mobile-screen"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
-                        escritorio, tabletas y teléfonos móviles.</p>
-                </div>
-                <div class="services__item">
-                    <i class="fa fa-mobile-screen"></i>
-                    <h5>Diseño Responsive</h5>
-                    <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
-                        escritorio, tabletas y teléfonos móviles.</p>
-                </div>
-
+    <section  id="services">
+        
+        <h1 class="services__title">Servicios</h1>
+        <div class="services">
+            <div class="services__item">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h5>Diseño Responsive</h5>
+                <p>Su sitio se mostrará correctamente en cualquier dispositivo, incluidas computadoras de
+                    escritorio, tabletas y teléfonos móviles.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-palette"></i>
+                <h5>Diseño creativo</h5>
+                <p>Un buen y atractivo diseño web lo ayuda a mantener a sus clientes potenciales en su sitio, que es
+                    la cara digital de su negocio.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-code"></i>
+                <h5>Desarrollo</h5>
+                <p>Las buenas practicas y metodologias son importantes a la hora de desarrollar de una manera
+                    eficiente, para cumplir con las necesidades requeridas</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Integración de redes sociales</h5>
+                <p>Las redes sociales son importantes a la hora de promocionar su negocio y la manera como las
+                    integramos.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-rocket"></i>
+                <h5>Rendimiento</h5>
+                <p>Retener a los usuarios es crucial Los sitios de alto rendimiento lo hacen de una manera
+                    satisfactoria.</p>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-gear"></i>
+                <h5>SEO</h5>
+                <p>Optimizaré su sitio con una estrategia inteligente de optimización de motores de búsqueda para
+                    generar clientes potenciales.</p>
             </div>
 
-        </section>
+        </div>
+    
+    </section>
 
-    </div>
+
 
     <script>
+
+
         function toggleMobileNavigation() {
             var element = document.getElementById("mobile-navigation");
 
