@@ -13,25 +13,25 @@ body {
 
 section {
 
-    padding: 90px 0;
+    padding: 80px;
     text-align: center;
     background: white;
-    max-width: 1700px;
+    max-width: 1500px;
     margin: 0 auto;
-   
-    
-    
+
+
+
 }
 
 header {
-    
+
     font-family: "poppins", sams-serif;
     color: #333;
     display: flex;
     align-items: center;
     margin: 0 20px;
     margin-top: 10px;
-    
+
 }
 
 
@@ -149,7 +149,7 @@ header {
     margin: 0 auto;
     padding: 0;
     max-width: 1700px;
-    
+
 }
 
 .main--content {
@@ -157,13 +157,12 @@ header {
     margin-top: 80px;
     margin-bottom: 80px;
     font-family: "poppins", sams-serif;
+    color: rgb(9, 9, 9);
 
 
 }
 
-.main--content:hover {
-    color: black;
-}
+
 
 
 
@@ -237,9 +236,8 @@ header {
 
 
 
-
 .Text-about p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     font-family: "poppins", sams-serif;
     margin: 0 20px;
@@ -255,7 +253,8 @@ header {
     text-align: center;
     font-family: "poppins", sams-serif;
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 50px;
+    color: rgb(9, 9, 9);
 }
 
 .about__skills {
@@ -274,11 +273,18 @@ header {
     height: 180px;
 }
 
+
 .skill__item img {
 
-    width: 60px;
+    width: 45px;
 
 }
+
+.skill__item .logo {
+    width: 65px;
+}
+
+
 
 .skill__name {
     margin: 0;
@@ -324,7 +330,15 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
+}
+
+.fa-mobile-screen:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .fa-palette {
@@ -333,7 +347,14 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
+}
+
+.fa-palette:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fa-code {
@@ -342,7 +363,14 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
+}
+
+.fa-code:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fa-thumbs-up {
@@ -351,7 +379,14 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
+}
+
+.fa-thumbs-up:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .fa-rocket {
@@ -360,38 +395,42 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
 }
 
-.fa-gear{
+.fa-rocket:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-gear {
     background: linear-gradient(270deg, #ffeb0c 0%, #e0ff31 37.25%, #a2cb00 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 65px;
-    
+
 }
 
+.fa-gear:hover {
+    background: linear-gradient(270deg, #5f5f5f 0%, #3d3d3d 37.25%, #212121 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
 .services {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 20px;
-    margin: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
 
 
 }
 
-.services__title{
-    font-size: 42px;
-    font-weight: 500;
-    text-align: center;
-    font-family: "poppins", sams-serif;
-    margin-bottom: 50px;
-    margin-top: 30px;
-}
 .services__item {
     margin: 0;
     padding: 0;
@@ -399,17 +438,20 @@ header {
     font-size: 65px;
     width: 100%;
     height: 100%;
+
 }
 
 
 
 .services__item h5 {
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "poppins", sams-serif;
 }
 
-.services__item p{
-    font-size: 20px;
+.services__item p {
+    font-size: 15px;
     text-align: center;
     font-family: "poppins", sams-serif;
     margin: 0;
@@ -418,9 +460,62 @@ header {
 
 
 
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.card {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card img {
+    width: 400px;
+    height: 230px;
+}
+
+.card h5 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "poppins", sams-serif;
+}
+
+.card p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: "poppins", sams-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    font-size: 20px;
+    width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px 36px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 
+}
 
+.link .fab {
+    margin-right: 6px;
+}
 
 
 
@@ -429,15 +524,6 @@ header {
 @media only screen and (max-width:600px) {
     .main {
         display: block;
-
-    }
-
-
-
-    .about__skills {
-        grid-template-columns: 1fr 1fr;
-        gap:10px;
-
 
     }
 
@@ -483,8 +569,8 @@ header {
 
     .about__skills {
         grid-template-columns: 1fr 1fr 1fr;
-        gap:10px;
-        
+        gap: 10px;
+
 
 
     }
@@ -492,23 +578,63 @@ header {
     .services {
         grid-template-columns: 1fr 1fr;
     }
+
+
+
+
 }
+
+
+
+@media (max-width: 1700px) {
+    .card-grid {
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+    }
+}
+@media (max-width: 1100px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+    
+    
+    }
+
+    
+
+    
+}
+
+
+
 
 @media (max-width: 600px) {
     .about__skills {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
-        
+
 
 
     }
+
+    section{
+        max-width: 1700px;
+        padding: 30px;
+    }
+
     
+
 
     .services {
         grid-template-columns: 1fr;
         gap: 20px;
-    }
 
+    }
+    .card img {
+        width: 300px;
+        height: 230px;
+    }
+   
     
 
     .skill__item {
@@ -516,7 +642,15 @@ header {
         padding: 5px;
         min-width: 75px;
         height: 85px;
-        margin-bottom:25px ;
+        margin-bottom: 25px;
     }
 
+}
+
+
+@media (max-width: 500px) {
+    .card img {
+        width: 200px;
+        height: 130px;
+    }
 }
