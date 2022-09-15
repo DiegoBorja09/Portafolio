@@ -16,7 +16,7 @@ section {
     padding: 80px;
     text-align: center;
     background: white;
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 0 auto;
 
 
@@ -464,6 +464,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
+
 }
 
 .card {
@@ -618,7 +619,6 @@ header {
     }
 
     section{
-        max-width: 1700px;
         padding: 30px;
     }
 
@@ -632,7 +632,7 @@ header {
     }
     .card img {
         width: 300px;
-        height: 230px;
+        height: 180px;
     }
    
     
@@ -647,10 +647,11 @@ header {
 
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .card img {
         width: 200px;
-        height: 130px;
+        height: 120px;
     }
 }
+
+
