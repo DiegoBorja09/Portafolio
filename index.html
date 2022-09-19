@@ -27,10 +27,11 @@
                 </button>
             </div>
         </div>
-        <a href="#home" class="mobile-navigation--item">Home</a>
-        <a href="#about" class="mobile-navigation--item">About</a>
-        <a href="#services" class="mobile-navigation--item">Services</a>
-        <a href="#contact" class="mobile-navigation--item">Contact</a>
+        <a href="#home" class="mobile-navigation--item">Inicio</a>
+        <a href="#about" class="mobile-navigation--item">Sobre mí</a>
+        <a href="#services" class="mobile-navigation--item">Servicios</a>
+        <a href="#portafolio" class="mobile-navigation--item">Portafolio</a>
+        <a href="#contacto" class="mobile-navigation--item">Contacto</a>
     </div>
 
 
@@ -40,10 +41,11 @@
 
         <nav class="navigation">
             <i class="fa fa-laptop-code"></i>
-            <a href="#home" class="navigation--item">Home</a>
-            <a href="#about" class="navigation--item">About</a>
-            <a href="#services" class="navigation--item">Services</a>
-            <a href="#contact" class="navigation--item">Contact</a>
+            <a href="#home" class="navigation--item">Inicio</a>
+            <a href="#about" class="navigation--item">Sobre mí</a>
+            <a href="#services" class="navigation--item">Servicios</a>
+            <a href="#portafolio" class="navigation--item">Portafolio</a>
+            <a href="#contacto" class="navigation--item">Contacto</a>
         </nav>
         <div class="menu-button" onclick="toggleMobileNavigation()">
             <button>
@@ -74,7 +76,7 @@
     <section id="about">
 
         <div class="Text-about">
-            <h1 class="skill__title">About me</h1>
+            <h1 class="skill__title">Sobre mí</h1>
             <p>Soy ingeniero de software con experiencia en desarrollo de sitios web y aplicaciones web. Cuento con
                 amplio dominio en varios lenguajes de programacion como JavaScript, java y phython.
                 Tengo experiencia profesional trabajando con librerias y framework tales como Nodejs,
@@ -91,7 +93,7 @@
 
 
 
-        <h1 class="skill__title">My Skills</h1>
+        <h1 class="skill__title">Mis habilidades</h1>
         <div class="about__skills">
             <div class="skill__item">
                 <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB icon" />
@@ -210,7 +212,7 @@
 
 
 
-    <section>
+    <section id="portafolio">
 
         <h1 class="skill__title">Portafolio</h1>
         <div class="card-grid">
@@ -236,12 +238,43 @@
 
             </div>
             <div class="card">
+                <img src="assets/movies.png" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Movies app</h5>
+                <p>BackEnd de Movies app realizado con nodejs, Express.js, JSONWebToken, Sequelizer y Mysql. Cuenta con
+                    Un registro
+                    local y inicio de session.Gestion de peliculas con categorias y actores</p>
+                <a href="https://github.com/DiegoBorja09/challenger" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
                 <img src="assets/crud1.png" class="card-img-top" alt="...">
 
                 <h5 class="card-title">Crud</h5>
+                <p>BackEnd de JobSearch realizado con nodejs, Express.js, Cors y Mysql.
+                    Crud con metodos para listar usuarios, buscar por nombre, eliminar, y Actualizar.
+                    Controlado el origen de las peticiones del FrontEnd.</p>
+                <a href="https://github.com/DiegoBorja09/Backend-Prueba" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
+                <img src="assets/frontend.jfif" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Crud</h5>
                 <p>FrontEnd desarrollado en angular con html, css Bootstrap y SweetAlert para los mensajes de alerta.
-                    gestionando el crud con un arreglo con sus metodos
-                    agregar eliminar y editar.</p>
+                    Gestionando el crud mediante Peticiones a Nuestro BackEnd.</p>
+                <a href="https://crud-angular-user.vercel.app/" class="link"><i
+                        class="fab fa-github"></i>Repositorio</a>
+
+            </div>
+            <div class="card">
+                <img src="assets/portafolio.JPG" class="card-img-top" alt="...">
+
+                <h5 class="card-title">Portafolio</h5>
+                <p>Portafolio Web Desarrollado con Html5, Css y JavaScript.
+                    Utilizando Fontawesome para los iconos y desplegado en Vercel. <br> <br></p>
                 <a href="https://crud-angular-user.vercel.app/" class="link"><i
                         class="fab fa-github"></i>Repositorio</a>
 
@@ -252,6 +285,17 @@
 
 
     </section>
+
+    <footer id="contacto">
+        <h1>Contacto</h1>
+        <div class="socials">
+            <a href="malito:diegoborja09@gmail.com" class="socials--item"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/diego-b-33428a127/" class="socials--item"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/+573126834029" class="socials--item"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/DiegoBorja09" class="socials--item"><i class="fab fa-github"></i></a>
+        </div>
+        <p>Copyright &copy; 2022 Diego Borja Padilla <br> All Rights Reserved</p>
+    </footer>
 
 
 
