@@ -433,7 +433,14 @@ header {
     font-size: 65px;
     width: 100%;
     height: 100%;
+    transition: 0.5s ease;
 
+}
+
+.services__item:hover{
+    transform: scale(1.1);
+    
+    
 }
 
 
