@@ -1,7 +1,5 @@
 window.sr =ScrollReveal();
 
-
-
 sr.reveal('.about',{
     duration:4000,
     origin:'top',

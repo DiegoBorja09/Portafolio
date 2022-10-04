@@ -7,7 +7,8 @@
 body {
 
     padding: 0;
-    margin: 0;
+    margin: auto;
+    
 
 }
 html {
@@ -15,11 +16,11 @@ html {
   }
 
 section {
-
+    max-width: 1700px;
     padding: 80px;
     text-align: center;
     background: white;
-    max-width: 1700px;
+    
     margin: 0 auto;
 
 
@@ -27,12 +28,12 @@ section {
 }
 
 header {
-
+    max-width: 1700px;
     font-family: "poppins", sams-serif;
     color: #333;
     display: flex;
     align-items: center;
-    margin: 0 20px;
+    margin: auto;
     margin-top: 10px;
 
 }
@@ -143,7 +144,7 @@ header {
     align-items: center;
     margin: 0 auto;
     padding: 0;
-    max-width: 1700px;
+    
 
 }
 
@@ -233,7 +234,7 @@ header {
 
 .Text-about p {
     font-size: 18px;
-    text-align: justify;
+    text-align:left;
     font-family: "poppins", sams-serif;
     margin: 0 20px;
     padding: 0;
@@ -422,7 +423,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
-
+    
 
 }
 
@@ -500,7 +501,7 @@ header {
 
 .card p {
     font-size: 15px;
-    text-align: justify;
+    text-align:left;
     font-family: "poppins", sams-serif;
     margin: 0;
     padding: 0;
@@ -534,6 +535,7 @@ footer{
     display: block;
     background-color: #262626;
     text-align: center;
+    
 }
 
 footer h1{
