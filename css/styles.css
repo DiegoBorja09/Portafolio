@@ -7,7 +7,7 @@
 body {
 
     padding: 0;
-    margin: auto;
+    margin: 0;
     
 
 }
@@ -20,7 +20,6 @@ section {
     padding: 80px;
     text-align: center;
     background: white;
-    
     margin: 0 auto;
 
 
@@ -28,7 +27,7 @@ section {
 }
 
 header {
-    max-width: 1700px;
+   max-width: 1700px;
     font-family: "poppins", sams-serif;
     color: #333;
     display: flex;
@@ -98,7 +97,8 @@ header {
 }
 
 .mobile-navigation {
-    position: fixed;
+    font-family: "poppins", sams-serif;
+    position :fixed;
     width: 100vw;
     height: 100vh;
     background-color: white;
@@ -615,6 +615,9 @@ footer p{
     .menu-button {
         display: block;
     }
+    header{
+        margin: 15px;
+    }
 }
 
 @media (max-width: 1293px) {
@@ -624,6 +627,7 @@ footer p{
     .about__skills {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
+        
 
 
 
@@ -631,6 +635,7 @@ footer p{
 
     .services {
         grid-template-columns: 1fr 1fr;
+        
     }
 
 
@@ -641,6 +646,7 @@ footer p{
 
 
 @media (max-width: 1700px) {
+
     .card-grid {
         grid-template-columns: 1fr 1fr;
         margin: 0;
