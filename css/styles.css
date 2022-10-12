@@ -466,7 +466,9 @@ header {
 }
 
 
-
+.flex{
+    display: flex;
+}
 
 
 .card-grid {
@@ -533,9 +535,16 @@ header {
 }
 
 
+
+
 .link .fab {
     margin-right: 6px;
 }
+
+.link .fa-solid{
+    margin-right: 6px;
+}
+
 
 footer{
     display: block;
