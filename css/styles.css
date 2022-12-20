@@ -323,6 +323,9 @@ header {
 .fa-react {
     color: #33aaef;
 }
+.fa-angular{
+    color: #ed183b;
+}
 
 .fa-mobile-screen {
     background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%);
